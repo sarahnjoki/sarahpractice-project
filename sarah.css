@@ -1,0 +1,78 @@
+/*type selectors*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial,helvetica,sans-serif
+	
+
+
+}
+
+
+h1{margin: 0;}
+
+h2,h3,h4{color:maroon; }
+/*class selectors*/
+.container{
+	width: 50em;
+	margin: auto;
+	}
+
+.nav{
+	background: skyblue;
+
+	padding:2em, 2em;
+}
+	.intro{
+		font-size: 1.2em;
+		color: gray;}
+		
+	
+
+/*id selectorsh*/
+#footer{
+	background:maroon;
+	color : gray;
+	padding: 2em;
+}
+ #main{
+ 	margin: 1em,3em;
+ 	background-image:  url(img/5.jpg);
+  
+       }
+ 
+
+/*universal selectors*/
+
+
+/*Descedandant selectors*/
+.nav li{
+	display: inline;
+	margin-right: 2em;
+}
+.nav li a{
+	color: red;
+}
+
+/*child selectors*/
+.nav li > a{
+	text-decoration: none;
+
+}
+
+/*adjacent sibling selectors*/
+ h3+ h4{
+ 	background: orange;
+ }
+
+ h3+ p {border: 4px red dashed;
+
+ }
+
+/*link pseudo-class selectors*/
+a:link {color: green;}
+a:visited{
+	color: red;}
+a:focus{color: #000;}
+a:hover {color: blue;}
+a:active{color:pink; }
